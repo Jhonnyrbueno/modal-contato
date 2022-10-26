@@ -18,23 +18,52 @@
         </div>
     </div>
 
-    <div id="fade"></div>
+    <div id="fade" class="hide">
 
-    <div id="modal">
+    </div>
+
+    <div id="modal" class="hide">
         <div class="modal-header">
             <h1>Contato</h1>
         </div>
         <div class="body-modal">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <form action="https://formsubmit.co/jhonnyrbueno@gmail.com" id="forms" method="POST">
+                <input type="hidden" name="_next" value="https://jhonnyrbueno.github.io/site/obrigado-contato.html">
+                <input type="hidden" name="_subject" value="Meu Site No GitHub - Nova Mensagem">
+                <input type="hidden" name="_autoresponse"
+                    value="Olá
+                    Obrigado pelo seu contato, logo entraremos em contato. 
+                    Att. 
+                    Jhonny Bueno - Developer">
+                <input type="hidden" name="_template" value="table">
+                <div class="input-group">
+                    <input type="text" class="field" name="name" required placeholder="NOME">
+                    <label for="name" class="field-label"></label>
+                </div>
+                <div class="input-group">
+                    <input type="email" class="field" name="email" required placeholder="E-MAIL">
+                    <label for="email" class="field-label"></label>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="field" name="subject" required placeholder="ASSUNTO">
+                    <label for="subject" class="field-label"></label>
+                </div>
+                <div class="input-group">
+                    <textarea class="field" name="message" id="mensagem" required
+                        placeholder="MENSAGEM"></textarea><label for="message" class="field-label"></label>
+                </div>
+                            
         </div>
         <div class="button-modal">
             <div class="button-2">
-                <button id="submet">Enviar</button>
+                <button id="submet" type="submit" class="btn-submit" data-toggle="modal"
+                data-target="#myModal">Enviar</button>
             </div>
             <div class="button-3">
                 <button id="close-modal">Fechar</button>
             </div>
         </div>
+    </form>
     </div>
 </body>
 </html>

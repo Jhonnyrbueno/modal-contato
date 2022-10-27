@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/functions.js" defer></script>
+    <script>
+
+        function openWindow() {
+            var myWindow = window.open("#forms","_blank","with=300, height=300");
+        }
+    </script>
     <title>modal-contato</title>
 </head>
 <body>
@@ -23,21 +29,15 @@
     <div id="fade" class="hide">
 
     </div>
-
+<!--Começo do corpo do modal-->
     <div id="modal" class="hide">
         <div class="modal">
         <div class="modal-header">
             <h1>Contato</h1>
         </div>
         <div class="body-modal">
-            <form action="https://formsubmit.co/jhonnyrbueno@gmail.com" id="forms" method="POST">
-                <input type="hidden" name="_next" value="https://jhonnyrbueno.github.io/site/obrigado-contato.html">
-                <input type="hidden" name="_subject" value="Meu Site No GitHub - Nova Mensagem">
-                <input type="hidden" name="_autoresponse"
-                    value="Olá
-                    Obrigado pelo seu contato, logo entraremos em contato. 
-                    Att. 
-                    Jhonny Bueno - Developer">
+            <form action="https://formsubmit.co/formsmodal@gmail.com" id="forms" method="POST" target="print_popup" onsubmit="window.open('about:_blank','print_popup','scrollbar=no,width=450,height=550,top=150,left=200,resizable=yes,toolbar=no,status=no')">
+                <input type="hidden" name="_subject" value="Olá, este é o modal">
                 <input type="hidden" name="_template" value="table">
                 <div class="input-group">
                     <input type="text" class="field" name="name" required placeholder="NOME">
@@ -71,5 +71,6 @@
         <div class="contato-right">
         </div>
     </div>
+<!--fim do corpo do modal-->
 </body>
 </html>

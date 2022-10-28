@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 350px;
+    height: 400px;
+}

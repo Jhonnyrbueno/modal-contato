@@ -45,8 +45,9 @@ h1 {
 }
 .contato-right {
     width: 70%;
-    background: url(image/Contato-Email.png);
+    background: url(/image/Contato-Email.png);
     background-size: cover;
+    z-index: 999;
 }
 .contato-left {
     width: 50%;

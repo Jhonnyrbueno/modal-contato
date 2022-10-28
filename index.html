@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script src="js/functions.js" defer></script>
-    <script>
 
-        function closeModal() {
-            var myWindow = modal.close();
-        }
-    </script>
     <title>modal-contato</title>
 </head>
 <body>
@@ -36,7 +31,7 @@
             <h1>Contato</h1>
         </div>
         <div class="body-modal">
-            <form action="https://formsubmit.co/formsmodal@gmail.com" id="forms" method="POST" target="print_popup" onsubmit="window.open('about:_blank','print_popup','scrollbar=no,width=450,height=550,top=150,left=200,resizable=yes,toolbar=no,status=no');" rel="noopener noreferrer">
+            <form action="https://formsubmit.co/formsmodal@gmail.com" id="forms" method="POST" target="print_popup" onsubmit="window.open('about:_blank','print_popup','scrollbar=no,width=450,height=650,top=150,left=200,resizable=no,location=no,directories=no,menubar=no,toolbar=no,status=no');" rel="noopener noreferrer">
                 <input type="hidden" name="_next" value="http://127.0.0.1:5501/sub-pagina/obrigado.html">
                 <input type="hidden" name="_subject" value="Olá, este é o modal">
                 <input type="hidden" name="_template" value="table">
@@ -64,7 +59,7 @@
                 data-target="#myModal">Enviar</button>
                 </div>
             <div class="button-3">
-                <div id="close-modal" onclick="closeModal()"><a href="">Fechar</a></div>
+                <div id="close-modal"><a href="">Fechar</a></div>
             </div>
         </div>
     </form>

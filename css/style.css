@@ -62,8 +62,8 @@ h1 {
 }
 .input-group textarea {
     padding-top: 1rem;
-    max-width: 27rem;
-    max-height: 10rem;
+    max-width: 25rem;
+    max-height: 7rem;
 }
 #mensagem {
     height: 5rem;

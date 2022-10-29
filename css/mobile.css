@@ -9,7 +9,7 @@
         display: none;
     }
     .field {
-        max-width: 90%;
+        max-width: 100%;
         width: 95%;
     }
     .input-group textarea {

@@ -1,5 +1,5 @@
 # Modal Contato
- O modal contato criado para a utilização do submit, sem a necessidade de um back-end com o <a href="https://formsubmit.co" alt="Formsubmit">FormSubmit</a>
+ O modal contato criado para a utilização do submit, sem a necessidade de um back-end com o <a href="https://formsubmit.co" alt="Formsubmit">FormSubmit</a>, acesse a página do modal para ver na prática como o funciona <a href="https://jhonnyrbueno.github.io/modal-contato/" alt="Modal Contato">Modal Contato</a>
 
  ## Ensirindo o modal HTML no body
 
@@ -64,7 +64,7 @@ crie uma uma nova div com classe, dentro do corpo do modal e adicione o código.
 ```
 Pode ser adicionados mais três atributos abaixo do forms ID
 
-    1 - Para um outra página de agradecimento
+    - Para um outra página de agradecimento
 
 ````
 
@@ -72,7 +72,7 @@ Pode ser adicionados mais três atributos abaixo do forms ID
 
 ````
 
-    2 - Com um titulo definido quando chega um email
+    - Com um titulo definido quando chega um email
 
 ````
 
@@ -80,7 +80,7 @@ Pode ser adicionados mais três atributos abaixo do forms ID
 
 ````
 
-    3 - Três formas de templete com value= box, table ou classic
+    - Três formas de templete com value= box, table ou classic
 
 ````
 
@@ -129,4 +129,17 @@ Após o reCaptcha pode esta colocando um botão na pagina de agradecimento para 
     </script>
 
 ````
+
+        <a href="https://www.facebook.com/jhonnyrbueno" target="_blank"><i class="fab fa-facebook-f"
+                alt="Facebook"></i></a>
+        <a href="https://www.instagram.com/jhonnyrbueno/" target="_blank"><i class="fab fa-instagram"
+                alt="Instagram"></i></a>
+        <a href="https://twitter.com/jhonnyrbueno" target="_blank"><i class="fab fa-twitter" alt="Twitter"></i></a>
+        <a href="https://www.linkedin.com/in/jhonnyrbueno/" target="_blank"><i class="fab fa-linkedin"
+                alt="linkedin"></i></a>
+        <a href="https://github.com/Jhonnyrbueno" target="_blank"><i class="fab fa-github-alt"
+                alt="Git Hub"></i></a>
+        <a href="https://jhonnyrbueno.github.io/site/" target="_blank"><i class="fa fa-globe" alt="Site Portifólio"></i></a>
+        <p>Jhonny Bueno Soluções e Desenvolvimentos</p>
+        <p>Todos os direitos reservados © 2022</p>
 

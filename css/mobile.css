@@ -2,5 +2,17 @@
     .home img {
         max-width: 70%;
     }
-    
+    .contato-right {
+        display: none;
+    }
+    .field {
+        max-width: 190%;
+        width: 170%;
+    }
+    .button-modal{
+        justify-items: center;
+    }
+    .button-2 {
+        margin-left:30%;
+    }
 }

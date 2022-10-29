@@ -129,6 +129,5 @@ Após o reCaptcha pode esta colocando um botão na pagina de agradecimento para 
 ````
 
 ###
-Jhonny Bueno Soluções e Desenvolvimentos
-Todos os direitos reservados © 2022
+Jhonny Bueno Soluções e Desenvolvimentos - Todos os direitos reservados © 2022
 

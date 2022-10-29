@@ -130,16 +130,6 @@ Após o reCaptcha pode esta colocando um botão na pagina de agradecimento para 
 
 ````
 
-        <a href="https://www.facebook.com/jhonnyrbueno" target="_blank"><i class="fab fa-facebook-f"
-                alt="Facebook"></i></a>
-        <a href="https://www.instagram.com/jhonnyrbueno/" target="_blank"><i class="fab fa-instagram"
-                alt="Instagram"></i></a>
-        <a href="https://twitter.com/jhonnyrbueno" target="_blank"><i class="fab fa-twitter" alt="Twitter"></i></a>
-        <a href="https://www.linkedin.com/in/jhonnyrbueno/" target="_blank"><i class="fab fa-linkedin"
-                alt="linkedin"></i></a>
-        <a href="https://github.com/Jhonnyrbueno" target="_blank"><i class="fab fa-github-alt"
-                alt="Git Hub"></i></a>
-        <a href="https://jhonnyrbueno.github.io/site/" target="_blank"><i class="fa fa-globe" alt="Site Portifólio"></i></a>
-        <p>Jhonny Bueno Soluções e Desenvolvimentos</p>
-        <p>Todos os direitos reservados © 2022</p>
+        Jhonny Bueno Soluções e Desenvolvimentos
+          Todos os direitos reservados © 2022
 

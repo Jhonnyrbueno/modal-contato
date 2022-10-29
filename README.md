@@ -64,24 +64,21 @@ crie uma uma nova div com classe, dentro do corpo do modal e adicione o código.
 ```
 Pode ser adicionados mais três atributos abaixo do forms ID
 
-###
-    1- Para um outra página de agradecimento
+Para um outra página de agradecimento
 
 ````
 
 <input type="hidden" name="_next" value=" URL DA PAGINA DE AGRADECIMENTO AQUI ">
 
 ````
-###
-    2- Com um titulo definido quando chega um email
+Com um titulo definido quando chega um email
 
 ````
 
 <input type="hidden" name="_subject" value=" TITULO AQUI ">
 
 ````
-###
-    3- Três formas de templete com value= box, table ou classic
+Três formas de templete com value= box, table ou classic
 
 ````
 

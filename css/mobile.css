@@ -1,6 +1,6 @@
-@media (max-width: 860px) {
+@media (min-width: 860px) {
     .home img {
-        width: 70%;
+        max-width: 70%;
     }
     
 }

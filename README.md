@@ -1,7 +1,7 @@
 # Modal Contato
  O modal contato criado para a utilização do submit, sem a necessidade de um back-end com o <a href="https://formsubmit.co" target="_blank" alt="Formsubmit">FormSubmit</a>, acesse a página do modal para ver na prática como o funciona <a href="https://jhonnyrbueno.github.io/modal-contato/" target="_blank" alt="Modal Contato">Modal Contato</a>
 
- ## Ensirindo o modal HTML no body
+ ## Inserindo o modal HTML no body
 
 Insira o código abaixo do body, para incerir o modal
 

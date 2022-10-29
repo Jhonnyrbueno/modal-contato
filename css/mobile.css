@@ -1,4 +1,7 @@
 @media (max-width: 860px) {
+    .modal {
+        width: 100%;
+    }
     .home img {
         width: 70%;
     }
@@ -6,13 +9,16 @@
         display: none;
     }
     .field {
-        max-width: 190%;
-        width: 170%;
+        max-width: 90%;
+        width: 85%;
+    }
+    .input-group textarea {
+        max-width: 100%;
     }
     .button-modal{
         justify-items: center;
     }
     .button-2 {
-        margin-left:30%;
+        margin-left: 0;
     }
 }

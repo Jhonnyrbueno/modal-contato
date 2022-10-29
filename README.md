@@ -64,23 +64,24 @@ crie uma uma nova div com classe, dentro do corpo do modal e adicione o código.
 ```
 Pode ser adicionados mais três atributos abaixo do forms ID
 
-    - Para um outra página de agradecimento
+###
+    1- Para um outra página de agradecimento
 
 ````
 
 <input type="hidden" name="_next" value=" URL DA PAGINA DE AGRADECIMENTO AQUI ">
 
 ````
-
-    - Com um titulo definido quando chega um email
+###
+    2- Com um titulo definido quando chega um email
 
 ````
 
 <input type="hidden" name="_subject" value=" TITULO AQUI ">
 
 ````
-
-    - Três formas de templete com value= box, table ou classic
+###
+    3- Três formas de templete com value= box, table ou classic
 
 ````
 
@@ -130,6 +131,7 @@ Após o reCaptcha pode esta colocando um botão na pagina de agradecimento para 
 
 ````
 
+###
         Jhonny Bueno Soluções e Desenvolvimentos
           Todos os direitos reservados © 2022
 
